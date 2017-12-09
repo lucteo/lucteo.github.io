@@ -3,6 +3,7 @@ layout: page
 title: About this blog
 description: An optional about page for BlogInn Jekyll theme
 banner_image: meAbout.jpg
+image: meAbout.jpg
 ---
 
 **Lucian Radu Teodorescu** is a Software Architect from [Cluj-Napoca](https://en.wikipedia.org/wiki/Cluj-Napoca), Romania. He holds a PhD in Computer Science, working on the creation of the [Sparrow programming language](https://github.com/Sparrow-lang/sparrow).
