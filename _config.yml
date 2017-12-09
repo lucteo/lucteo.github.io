@@ -35,6 +35,9 @@ navigation:
 # The shortname for your Disqus site to enable comments.
 disqus: lucteo-github-io
 
+# Google Analytics ID
+google_analytics_id: "UA-110998351-1"
+
 # Author information - author info at the bottom of the post
 author_name: "LucTeo"
 author_bio: "Lucian Radu Teodorescu holds a PhD in programming languages, and is a Software Architect at Garmin International.  He likes challenges; and understanding the essence of things (if there is one) constitutes the biggest challenge of all."
