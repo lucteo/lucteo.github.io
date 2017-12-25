@@ -3,7 +3,7 @@ layout: post
 title:  "Why do we need to go meta?"
 date:   2017-12-17
 banner_image: Lake_mapourika_NZ.jpg
-image: Lake_mapourika_NZ.jpg
+image: images/posts/Lake_mapourika_NZ.jpg
 description: Physicists claim nowadays that metaphysics is dead. But how can they make claims about what's beyond physics? They can't. There are always hidden assumptions. We can learn something from this.
 tags: [physics, metaphysics, meta, generalization, ignorance, computruthing]
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "On Computing and Truthing"
 date:   2017-12-03
 banner_image: grain-field.jpg
-image: grain-field.jpg
+image: images/posts/grain-field.jpg
 description: What does it mean to 'know' in computing? Is it universal, is it too relative? I need to start truthing
 tags: [computing, truthing, epistemology, computer science, knowledge, relativism]
 ---
