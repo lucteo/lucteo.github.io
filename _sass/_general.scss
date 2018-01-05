@@ -143,6 +143,56 @@ blockquote p:last-child {
     margin-bottom: 0;
 }
 
+.box {
+    border-top: 2px solid lighten( $picton-blue, 30% );
+    border-left: 30px solid lighten( $picton-blue, 30% );
+    background: $alabaster;
+    margin: 0 0 24px;
+    padding-left: 16px;
+    padding-bottom: 6px;
+}
+.box:before {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -40px;
+
+    /*color: darken( $picton-blue, 15% );*/
+    color: $picton-blue;
+    font-family: 'fontawesome' !important;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+}
+
+.box p {
+    margin-bottom: 12px;
+}
+
+.box p:last-child {
+    margin-bottom: 0;
+}
+
+.info:before {
+    content: "\f05a";
+}
+
+.question:before {
+    content: "\f059";
+}
+
+.warn {
+    border-top: 2px solid lighten(orange, 35%);
+    border-left: 30px solid lighten(orange, 35%);
+}
+.warn:before {
+    color: orange;
+    content: "\f071";
+    margin-left: -41px;
+}
+
 dl,
 dd {
     margin: 0 0 24px;
@@ -475,6 +525,12 @@ green     #859900  operators, other keywords
 .highlight .vg { color: $picton-blue } /* Name.Variable.Global */
 .highlight .vi { color: $picton-blue } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+
+/* For inline code */
+.highlighter-rouge {
+    color: #586e75;             /* Generic */
+    background: $alabaster;
+}
 
 /* Button styles */
 .square {

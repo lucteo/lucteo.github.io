@@ -5,11 +5,11 @@
 
 @font-face {
     font-family: 'fontawesome';
-    src:    url('../fonts/fontawesome.eot?lc16yo');
-    src:    url('../fonts/fontawesome.eot?lc16yo#iefix') format('embedded-opentype'),
-        url('../fonts/fontawesome.ttf?lc16yo') format('truetype'),
-        url('../fonts/fontawesome.woff?lc16yo') format('woff'),
-        url('../fonts/fontawesome.svg?lc16yo#fontawesome') format('svg');
+    src:    url('../fonts/fontawesome.eot?3wpjtu');
+    src:    url('../fonts/fontawesome.eot?3wpjtu#iefix') format('embedded-opentype'),
+        url('../fonts/fontawesome.ttf?3wpjtu') format('truetype'),
+        url('../fonts/fontawesome.woff?3wpjtu') format('woff'),
+        url('../fonts/fontawesome.svg?3wpjtu#fontawesome') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,6 +35,12 @@
 .fa-close:before {
   content: "\f00d";
 }
+.fa-remove:before {
+  content: "\f00d";
+}
+.fa-times:before {
+  content: "\f00d";
+}
 .fa-map-marker:before {
   content: "\f041";
 }
@@ -43,6 +49,24 @@
 }
 .fa-chevron-right:before {
   content: "\f054";
+}
+.fa-times-circle:before {
+  content: "\f057";
+}
+.fa-check-circle:before {
+  content: "\f058";
+}
+.fa-question-circle:before {
+  content: "\f059";
+}
+.fa-info-circle:before {
+  content: "\f05a";
+}
+.fa-exclamation-triangle:before {
+  content: "\f071";
+}
+.fa-warning:before {
+  content: "\f071";
 }
 .fa-chevron-up:before {
   content: "\f077";
@@ -53,19 +77,40 @@
 .fa-bar-chart:before {
   content: "\f080";
 }
+.fa-bar-chart-o:before {
+  content: "\f080";
+}
 .fa-twitter:before {
   content: "\f099";
 }
 .fa-facebook:before {
   content: "\f09a";
 }
+.fa-facebook-f:before {
+  content: "\f09a";
+}
+.fa-github:before {
+  content: "\f09b";
+}
 .fa-feed:before {
   content: "\f09e";
+}
+.fa-rss:before {
+  content: "\f09e";
+}
+.fa-chain:before {
+  content: "\f0c1";
 }
 .fa-link:before {
   content: "\f0c1";
 }
+.fa-bars:before {
+  content: "\f0c9";
+}
 .fa-navicon:before {
+  content: "\f0c9";
+}
+.fa-reorder:before {
   content: "\f0c9";
 }
 .fa-google-plus:before {
@@ -76,6 +121,12 @@
 }
 .fa-linkedin:before {
   content: "\f0e1";
+}
+.fa-quote-left:before {
+  content: "\f10d";
+}
+.fa-quote-right:before {
+  content: "\f10e";
 }
 .fa-github-alt:before {
   content: "\f113";
@@ -119,6 +170,9 @@
 .fa-codepen:before {
   content: "\f1cb";
 }
+.fa-wechat:before {
+  content: "\f1d7";
+}
 .fa-weixin:before {
   content: "\f1d7";
 }
@@ -140,6 +194,3 @@
 .fa-mixcloud:before {
   content: "\f289";
 }
-
-
-
