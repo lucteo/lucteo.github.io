@@ -10,6 +10,7 @@ tags: [physics, metaphysics, meta, generalization, ignorance, computruthing]
 
 This post is inspired by the blog post [Why physicists need philosophy](https://blog.oup.com/2017/12/physicists-need-philosophy/). Richard Healey, the author of the post, rightfully argues against the mainstream belief among top physicists that physics has an answer for everything. He argues that philosophy is still needed to answer some of the aspects that physicists are still unable to answer. Stephen Hawking is so wrong when he [considers philosophy to be dead](http://www.telegraph.co.uk/technology/google/8520033/Stephen-Hawking-tells-Google-philosophy-is-dead.html).
 
+<!--more-->
 
 ## The incompleteness of physics
 

@@ -14,6 +14,8 @@ Over the years, I've gathered some knowledge about programming and computer scie
 
 This post is about what I know, what I don't know, and about how to know if I know a subject. And above all, about the process of knowing. Mostly related to computing.
 
+<!--more-->
+
 ## Knowledge in computing
 
 Computer science can be divided in two branches: theoretical computer science and applied computer science. The theoretical computer science deals with formal properties of computer systems. When you read _formal_, think of definitions, lemmas and theorems; just like in mathematics. We say that it's a [formal science](http://en.wikipedia.org/wiki/Formal_science). The applied part of computer science uses all the findings of the theoretical computer science for solving practical problems. It is not as formal, but still is far away from social sciences.

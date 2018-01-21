@@ -32,6 +32,8 @@ navigation:
 - text: Archives
   url: /tags/
 
+excerpt_separator: <!--more-->
+
 # The shortname for your Disqus site to enable comments.
 disqus: lucteo-github-io
 

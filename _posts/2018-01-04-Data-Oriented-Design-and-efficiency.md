@@ -12,6 +12,8 @@ tags: [data-oriented-design, efficiency]
 
 Over the course of time, I started to believe more and more in this approach. But a belief is just a belief, so in accordance with the goals of this blog, I need to move it towards true-belief and then to truth. This post is about adding evidence to support Data-Oriented Design.
 
+<!--more-->
+
 ## What is Data-Oriented Design?
 
 A few words here may not catch the essence of DOD, so please watch the video:
@@ -135,7 +137,7 @@ public:
 };
 {% endhighlight %}
 
-Every game object will model the `IGrameObject` interface. It will know how to update itself (using the `advance` method), and `draw` itself. For our problem the update consists in multiplying the velocity vector with a simple 2D rotation matrix. A concrete `GameObject` will contain the position, velocity and some other data members that are not used in this part of the code (other parts of our program can use them).
+Every game object will model the `IGameObject` interface. It will know how to update itself (using the `advance` method), and `draw` itself. For our problem the update consists in multiplying the velocity vector with a simple 2D rotation matrix. A concrete `GameObject` will contain the position, velocity and some other data members that are not used in this part of the code (other parts of our program can use them).
 
 The `World` class, as its name suggests, models our world of objects. It is able to generate random objects, it is able to update and to draw them.
 
