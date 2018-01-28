@@ -1,0 +1,8 @@
+@startuml
+
+[Data manager] as DataMgr
+[Critical business logic] as BL
+
+DataMgr --> BL : data
+
+@enduml
