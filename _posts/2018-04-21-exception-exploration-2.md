@@ -447,7 +447,7 @@ Please also remember from the [previous post]({{page.previous.url}}) that in ter
 
 <div class="box info">
     <p><b>Key point</b></p>
-    <p>It is a pity that a language that brags with <i>you don't pay what you don't use</i>, that is designed for embedded and real-time systems, doesn't have any support for not using exceptions.</p>
+    <p>It is a pity that a language that brags with <i>you don't pay what you don't use</i>, that is designed for embedded and real-time systems, doesn't have good support for not using exceptions.</p>
 </div>
 
 Hope this will be addressed in the future versions of C++. If it's not way too late.
