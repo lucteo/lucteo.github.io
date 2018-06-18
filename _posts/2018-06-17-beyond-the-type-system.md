@@ -71,7 +71,7 @@ The compiler will not properly name the variables, but we can easily guess which
 
 At this level, the constness of types is completely ignored. That's why, from now on, we won't be looking into const values, references and pointer anymore.
 
-There is another important fact proved by this example. Look at the constructor call for the value. It takes the object to be constructed as a pointer. Actually, all the LLVM `alloca` functions declare pointers instead of values. The type of `%1` is `%struct.MyType*`, and not `%struct.MyType*`. In the case of references and pointers, clang actually transforms them into double pointers.
+There is another important fact proved by this example. Look at the constructor call for the value. It takes the object to be constructed as a pointer. Actually, all the LLVM `alloca` functions declare pointers instead of values. The type of `%1` is `%struct.MyType*`, and not `%struct.MyType`; similarly, the type of `%2` is `%struct.MyType**`, and not `%struct.MyType*`. In the case of references and pointers, clang actually transforms them into double pointers.
 
 This is the first indicator that lvalues (all these C++ variables are lvalues) are translated into pointers.
 
