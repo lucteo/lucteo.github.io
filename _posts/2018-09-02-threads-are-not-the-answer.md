@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Threads are not the answer"
-date:   2018-08-26
+date:   2018-09-02
 banner_image: traffic_jam.jpg
 image: images/posts/traffic_jam.jpg
 description: "We argue that the thread-oriented approach to concurrency is a bad approach. It has severe modifiability problems, but also performance problems. We should not think in terms of low level primitives."
