@@ -33,6 +33,12 @@ layout: default
                         Tags: {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} {% endunless %}{% endfor %}
                     </div>
                     {% endif %}
+                    {% if page.img_credits.size > 0 %}
+                    <div class="img-credits">
+                        Image credits:
+                        {% for item in page.img_credits %} <div class="item">{{item[1]}}. <a href="{{item[0]}}">{{item[2]}}</a>{{item[3]}}</div>{% unless forloop.last %} {% endunless %} {% endfor %}
+                    </div>
+                    {% endif %}
                 </footer><!-- .entry-footer -->
             </article><!-- .post -->
             <div class="author-box">

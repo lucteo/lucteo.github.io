@@ -339,6 +339,18 @@
     padding: 3px 10px;
 }
 
+.img-credits {
+    margin-top: 30px;
+    border-top: 2px solid $gallery;
+    padding-top: 30px;
+}
+
+.img-credits .item {
+    margin-left: 15px;
+    padding-left: 13px;
+    text-transform: none;
+}
+
 .share-post a,
 .tag-links a {
     background-color: $gallery;
