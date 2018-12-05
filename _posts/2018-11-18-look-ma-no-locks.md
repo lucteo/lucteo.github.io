@@ -182,7 +182,7 @@ The key point here is that we accumulate tasks into a buffer while other tasks a
 The C++ interface for a task serializer would be:
 
 {% highlight C++ %}
-class TaskSerializer : TaskExecutor
+class TaskSerializer : public TaskExecutor
 {
 public:
     TaskSerializer(TaskExecutor& executor);
@@ -228,7 +228,7 @@ Please note that this schema will favor WRITE tasks in front of READ tasks. One 
 The C++ interface for this two-level task serializer would be:
 
 {% highlight C++ %}
-class RWTaskSerializer : TaskExecutor
+class RWTaskSerializer : public TaskExecutor
 {
 public:
     RWTaskSerializer(TaskExecutor& executor);
@@ -258,7 +258,7 @@ The idea is the same as with the task serializer:
 The C++ interface for the N-task serializer would be:
 
 {% highlight C++ %}
-class NTaskSerializer : TaskExecutor
+class NTaskSerializer : public TaskExecutor
 {
 public:
     NTaskSerializer(TaskExecutor& executor, int numParTasks=1);
