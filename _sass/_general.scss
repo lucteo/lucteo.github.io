@@ -91,10 +91,10 @@ p {
 pre {
     border-top: 2px solid $gallery;
     background: $alabaster;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 15px;
+    line-height: 1.5;
     margin-bottom: 24px;
-    padding: 30px 30px 30px 40px;
+    padding: 20px 20px 20px 20px;
     position: relative;
     white-space: pre;
     white-space: pre-wrap;
@@ -375,7 +375,7 @@ a:hover img {
 }
 
 .caption-text {
-    color: $silver;
+    color: $gray;
     font-size: 14px;
     font-style: italic;
     line-height: 1.5;
