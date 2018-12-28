@@ -4,7 +4,7 @@ title:  "Modern dining philosophers"
 date:   2018-12-28
 banner_image: dining.jpg
 image: images/posts/dining.jpg
-description: "How to solve the dining philosophers problem in 2018? By using tasks. And how to use task? Read on..."
+description: "How to solve the dining philosophers problem in 2018? By using tasks. And how to use tasks? Read on..."
 tags: [concurrency, modifiability, C++]
 img_credits:
     - ["https://unsplash.com/photos/bdwqrMfNG-U", "big.tiny.belly", "Meal by the sea", ""]
