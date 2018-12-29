@@ -64,7 +64,7 @@ For 3 philosophers, the chain of tasks would look something like:
 </figure>
 
 
-The *think* tasks don't need any special synchronization; they can run in parallel with any other tasks. Same for the *leave* tasks. The *eat* tasks, however, have synchronization conditions, based on the forks near each philosopher. We illustrated this fact in our diagram by writing what forks each *eat* task needs (between forks f<sub>0</sub>, f<sub>1</sub> and f<sub>3</sub>).
+The *think* tasks don't need any special synchronization; they can run in parallel with any other tasks. Same for the *leave* tasks. The *eat* tasks, however, have synchronization conditions, based on the forks near each philosopher. We illustrated this fact in our diagram by writing what forks each *eat* task needs (between forks f<sub>0</sub>, f<sub>1</sub> and f<sub>2</sub>).
 
 This diagram provides a good approximation of the problem, but it leaves one important detail out: what happens if a philosopher cannot pick up the forks to start eating? It needs to fall back to thinking some more. And we didn't properly account for that in our diagram.
 
@@ -102,6 +102,7 @@ using Task = std::function<void()>;
 
 class TaskExecutor {
 public:
+    virtual ~TaskExecutor() {}
     virtual void enqueue(Task t) = 0;
 };
 
