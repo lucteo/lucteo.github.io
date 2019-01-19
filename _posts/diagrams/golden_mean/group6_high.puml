@@ -1,0 +1,23 @@
+@startuml
+
+skinparam backgroundColor transparent
+
+package P1
+package P2
+package P3
+package P4
+package P5
+package P6
+
+P1 -- P2
+P2 -- P4
+P1 -- P4
+P1 -- P5
+P1 -- P3
+P2 -- P3
+P1 -- P6
+P3 -- P4
+P2 -- P6
+P2 -- P5
+
+@enduml

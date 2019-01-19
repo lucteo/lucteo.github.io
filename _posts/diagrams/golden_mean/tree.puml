@@ -1,0 +1,85 @@
+@startuml
+
+skinparam backgroundColor transparent
+
+package All
+package P1
+package P1_1 [
+    |_ N34
+    |_ N4
+    |_ N6
+    |_ N40
+    |_ N47
+    |_ N17
+    |_ N21
+    |_ N3
+    |_ N18
+]
+package P1_2 [
+    |_ N13
+    |_ N7
+    |_ N43
+    |_ N14
+    |_ N25
+    |_ N29
+    |_ N23
+    |_ N10
+    |_ N12
+    |_ N30
+]
+package P1_3 [
+    |_ N32
+    |_ N1
+    |_ N20
+    |_ N24
+    |_ N28
+    |_ N19
+]
+package P2 [
+    |_ N37
+    |_ N2
+    |_ N36
+    |_ N42
+    |_ N44
+    |_ N49
+    |_ N9
+    |_ N41
+]
+package P3 [
+    |_ N27
+    |_ N35
+    |_ N48
+    |_ N22
+]
+package P4 [
+    |_ N33
+    |_ N38
+    |_ N8
+    |_ N15
+    |_ N50
+]
+package P5 [
+    |_ N31
+    |_ N39
+    |_ N11
+    |_ N46
+]
+package P6 [
+    |_ N45
+    |_ N5
+    |_ N16
+    |_ N26
+]
+
+All -- P1
+All -- P2
+All -- P3
+All -- P4
+All -- P5
+All -- P6
+
+P1 -- P1_1
+P1 -- P1_2
+P1 -- P1_3
+
+@enduml

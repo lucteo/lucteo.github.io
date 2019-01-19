@@ -1,0 +1,76 @@
+@startuml
+
+skinparam backgroundColor transparent
+
+package P1_1 {
+    agent N34
+    agent N4
+    agent N6
+    agent N40
+    agent N47
+    agent N17
+    agent N21
+    agent N3
+    agent N18
+}
+package P1_2 {
+    agent N13
+    agent N7
+    agent N43
+    agent N14
+    agent N25
+    agent N29
+    agent N23
+    agent N10
+    agent N12
+    agent N30
+}
+package P1_3 {
+    agent N32
+    agent N1
+    agent N20
+    agent N24
+    agent N28
+    agent N19
+}
+
+P1_2 -- P1_3
+P1_1 -- P1_2
+P1_1 -- P1_3
+
+N4 -- N47
+N13 -- N25
+N19 -- N24
+N18 -- N34
+N10 -- N25
+N30 -- N25
+N34 -- N4
+N34 -- N17
+N28 -- N32
+N40 -- N3
+N12 -- N29
+N34 -- N6
+N7 -- N23
+N32 -- N20
+N6 -- N21
+N1 -- N32
+N40 -- N34
+N13 -- N29
+N17 -- N17
+N30 -- N14
+N47 -- N34
+N13 -- N29
+N13 -- N14
+N19 -- N28
+N3 -- N18
+N4 -- N6
+N32 -- N24
+N40 -- N18
+N10 -- N43
+N47 -- N3
+N13 -- N43
+N28 -- N32
+N10 -- N12
+N7 -- N13
+
+@enduml

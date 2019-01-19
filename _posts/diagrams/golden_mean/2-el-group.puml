@@ -1,0 +1,23 @@
+@startuml
+
+skinparam backgroundColor transparent
+
+(*) --> P1_1
+(*) --> P1_2
+
+P1_1 --> P2_1
+P1_1 --> P2_2
+P1_2 --> P2_3
+P1_2 --> P2_4
+
+P2_1 --> N1
+P2_1 --> N2
+P2_2 --> N3
+P2_2 --> N4
+P2_3 --> N5
+P2_3 --> N6
+P2_4 --> N7
+P2_4 --> N8
+
+
+@enduml
