@@ -596,6 +596,8 @@ private:
         int numSeats = forksInUse_.size();
         int idxLeft = philosopherIdx;
         int idxRight = (philosopherIdx + 1) % numSeats;
+        int leftPhId = (numSeats + philosopherIdx - 1) % numSeats;
+        int rightPhId = (philosopherIdx + 1) % numSeats;
 
         bool canEat = !forksInUse_[idxLeft] && !forksInUse_[idxRight];
         if ( canEat ) {
@@ -608,7 +610,7 @@ private:
                     waitingQueue_.erase(waitingQueue_.begin() + i);
                     break;
                 }
-                else if (phId == idxLeft || phId == idxRight) {
+                else if (phId == leftPhId || phId == rightPhId) {
                     // A neighbor is before us in the waiting list. Deny the eating
                     canEat = false;
                     break;
