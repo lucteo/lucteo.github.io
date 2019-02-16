@@ -8,7 +8,7 @@ description: "Turning the data-oriented design question around: for a perfectly 
 tags: [data-oriented-design, efficiency, exploration]
 ---
 
-In the [last post](2018-01-04-Data-Oriented-Design-and-efficiency.html) we shown how important data manipulation can be in the efficiency of programs. More specifically, we shown that in some cases, the data access is much slower than the instructions we run on the CPU side. The last post was a show-case for data-oriented design (DOD).
+In the [last post]({{page.previous.url}}) we shown how important data manipulation can be in the efficiency of programs. More specifically, we shown that in some cases, the data access is much slower than the instructions we run on the CPU side. The last post was a show-case for data-oriented design (DOD).
 
 But we can turn the problem upside down, and ask ourselves: assuming data layout is optimal, can we add more CPU instructions to be used while waiting for memory? The answer appears to be yes, within some limits.
 
