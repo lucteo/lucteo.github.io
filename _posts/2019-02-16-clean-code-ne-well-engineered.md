@@ -4,7 +4,7 @@ title:  "Clean code != well engineered"
 date:   2019-02-16
 banner_image: light-work.jpg
 image: images/posts/light-work.jpg
-description: "Being a good craftsman doesn't make you a good engineering. Nor does blindly following Clean Code."
+description: "Being a good craftsman doesn't make you a good engineer. Nor does blindly following Clean Code."
 tags: [software engineering, design, modifiability, natuaralness]
 img_credits:
     - ["https://unsplash.com/photos/xrVDYZRGdw4", "Émile Perron", "Light work", ""]
