@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How many threads?"
-date:   2019-10-23
+date:   2019-10-28
 banner_image: threads.jpg
 image: images/posts/threads.jpg
 description: "How many threads should your application have for maximum throughput? 2? 4? 10? 100? Does it matter?"
