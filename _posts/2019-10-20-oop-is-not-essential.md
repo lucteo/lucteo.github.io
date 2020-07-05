@@ -5,7 +5,7 @@ date:   2019-10-20
 banner_image: Overload153.jpg
 image: images/posts/Overload153.jpg
 description: "OOP cannot be essential to Software Engineering. Yes, it might help, but that doesn't make it essential. Instead, decomposition is essential; and there are more decomposition methods than the one advertised by OOP."
-tags: [oop, software engineering, decomposition, brooks, meta]
+tags: [oop, software engineering, decomposition, brooks, meta, Overload]
 img_credits:
     - ["https://accu.org/var/uploads/journals/Overload153.pdf", "ACCU", "Overload 153, October 2019", ""]
 ---
