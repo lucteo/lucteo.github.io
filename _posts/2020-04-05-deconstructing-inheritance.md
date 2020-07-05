@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deconstructing Inheritance"
-date:   2020-07-04
+date:   2020-04-05
 banner_image: Overload156.jpg
 image: images/posts/Overload156.jpg
 description: "What is the gap between the meanings that most Object-Oriented programmers will infuse inheritance with, and what inheritance actually stands for? Are there hidden oppositions in its structure, are signifiers arbitrary? Does inheritance have inner inadequacies?"

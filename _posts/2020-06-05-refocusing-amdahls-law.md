@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Refocusing Amdahl's Law"
-date:   2020-07-04
+date:   2020-06-05
 banner_image: Overload157.jpg
 image: images/posts/Overload157.jpg
 description: "Amdahl's law doesn't have to severely limit our performance. We can construct parallel programs without severe degradation in speedup. Don't take my word for it; look at the formulas."
-tags: [inheritance, oop, software engineering, philosophy, Overload]
+tags: [concurrency, performance, Overload]
 img_credits:
     - ["https://accu.org/var/uploads/journals/Overload157.pdf", "ACCU", "Overload 156, April 2020", ""]
 ---
