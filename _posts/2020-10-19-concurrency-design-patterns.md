@@ -4,10 +4,10 @@ title:  "Concurrency Design Patterns"
 date:   2020-10-19
 banner_image: Overload159.jpg
 image: images/posts/Overload159.jpg
-description: "We demonstrate why you should not need mutexes in high-level code, since any concurrent algorithm can be implemented safely and efficiently using tasks"
+description: "Concurrency can be hard; some design patterns might help get more proficient in concurrency design."
 tags: [concurrency, design, patterns, Overload]
 img_credits:
-    - ["https://accu.org/journals/overload/28/159/overload159.pdf", "ACCU", "Overload 159, August 2020", ""]
+    - ["https://accu.org/journals/overload/28/159/overload159.pdf", "ACCU", "Overload 159, October 2020", ""]
 ---
 
 As tasks are not very widespread, people may not have sufficient examples to start working with tasks instead of mutexes. This article tries to help with this by providing a series of design patterns that can help ease the adoption of task systems, and that may, at the same time, improve general concurrency design skills. Even more fundamentally, it tries to show how applications can be designed for concurrency.
