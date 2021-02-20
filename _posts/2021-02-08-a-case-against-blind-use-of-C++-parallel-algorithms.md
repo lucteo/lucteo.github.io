@@ -4,7 +4,7 @@ title:  "A Case Against Blind Use of C++ Parallel Algorithms"
 date:   2021-02-08
 banner_image: Overload161.jpg
 image: images/posts/Overload161.jpg
-description: "Through a series of questions this article explores the *essence* of software engineering, if there is any. "
+description: "C++ parallel algorithms may not be a big advancement in concurrency; in fact, they teach us to move in the wrong direction."
 tags: [concurrency, C++, Overload]
 img_credits:
     - ["https://accu.org/journals/overload/29/161/overload161.pdf", "ACCU", "Overload 161, February 2021", ""]
