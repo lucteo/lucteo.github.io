@@ -31,6 +31,8 @@ navigation:
   url: /about/
 - text: Archives
   url: /tags/
+- text: Presentation notes
+  url: /pres/
 
 excerpt_separator: <!--more-->
 
