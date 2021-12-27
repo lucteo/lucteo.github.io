@@ -4,7 +4,7 @@ title:  "Designing Concurrent C++ Applications"
 date:   2021-07-10
 banner_image: cppnow2021.jpg
 image: images/posts/cppnow2021.jpg
-description: "How can one design concurrent applications in C++, without safety issus, with good performance"
+description: "How can one design concurrent applications in C++, without safety issues, with good performance"
 tags: [concurrency, design, C++, conference, video]
 img_credits:
     - ["", "C++ now", "C++ now 2021", ""]
