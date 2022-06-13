@@ -12,6 +12,10 @@ image: images/pres/2022-thedev.png
 
 ## Resources
 
+- Hillel Wayne, [ARE WE REALLY ENGINEERS?](https://hillelwayne.com/post/are-we-really-engineers/)
+- Hillel Wayne, [WE ARE NOT SPECIAL](https://www.hillelwayne.com/post/we-are-not-special/)
+- Hillel Wayne, [WHAT ENGINEERING CAN TEACH (AND LEARN FROM) US](https://www.hillelwayne.com/post/what-we-can-learn/)
+- Hillel Wayne, [Are we *really* engineers?](https://www.youtube.com/watch?v=3018ABlET1Y)
 - Mary Shaw, [Progress Toward an Engineering Discipline of Software](https://www.youtube.com/watch?v=lLnsi522LS8), GOTO 2015
 - Peter Naur, Brian Randell (eds.), [Software Engineering](https://www.scrummanager.net/files/nato1968e.pdf), Report on a conference sponsored by the NATO SCIENCE COMMITTEE
 , Garmisch, Germany, 7th to 11th October 1968
